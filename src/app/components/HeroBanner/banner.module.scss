@@ -1,0 +1,165 @@
+.herobanner {
+  background: url(/assets/fst-home-banner.jpg) no-repeat 0 0;
+  background-size: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.herobanner::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.punchline {
+  position: absolute;
+  left: -48.333%;
+  height: 80vh;
+  padding-top: 30px;
+  width: 70%;
+  strong {
+    font-size: 36px;
+    color: #fff;
+    span{
+      font-size: 30px;
+    }
+  }
+  .banner_btn {
+    border: #fff 1px solid;
+    background: none;
+    color: #fff;
+    padding: 7.5px 15px;
+    font-size: 30px;
+    width: fit-content;
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+  }
+}
+
+.fiveSenses {
+  position: relative;
+
+  .cylinder {
+    background: #222;
+    width: 45%;
+    padding: 5px 0;
+    border-radius: 50px;
+    position: absolute;
+    right: 0;
+    padding-left: 60px;
+    color: #fff;
+    font-size: 26px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: scaleX(1.1);
+      background: rgb(235, 64, 1);
+    }
+
+    span {
+      background: #fff;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      left: 5px;
+      top: 5px;
+
+      svg {
+        color: #f83d08;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        top: 7px;
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+
+  .sense_one {
+    right: 150px;
+    top: 50px;
+  }
+  .sense_two {
+    right: 50px;
+    top: 125px;
+  }
+  .sense_three {
+    right: 0;
+    top: 200px;
+  }
+  .sense_four {
+    right: 50px;
+    top: 275px;
+  }
+  .sense_five {
+    right: 150px;
+    top: 350px;
+  }  
+}
+@media (max-width: 768px) {  
+  .herobanner {    
+    background-size: cover;
+    button{
+      border: #fff 1px solid;
+        background: none;
+        color: #fff;
+        padding: 2px 15px;
+        font-size: 30px;
+        width: -moz-fit-content;
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        bottom: 15px;
+        right: 0;
+        margin: 0 auto;
+    }   
+  }
+  .punchline {
+    position: relative;
+    left: 0;
+    padding-top: 0;
+    width: 100%;
+    height: auto;
+    strong{
+      font-size: 26px;
+      span{
+        font-size: 22px;
+      }
+    }
+  }
+  .fiveSenses {
+    margin-top: -30px;
+  .cylinder {    
+    width: 85%;   
+    padding-left: 55px;   
+    font-size: 22px; 
+  }
+  .sense_one{
+    right: 0px;
+  } 
+  .sense_two{
+    top: 115px;
+  }
+  .sense_three{
+    top: 180px;
+  }
+  .sense_four{
+    top: 245px;
+  }
+  .sense_five{
+    top: 310px;
+    right: 0px;
+  }
+  
+}
+  
+}

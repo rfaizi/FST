@@ -1,0 +1,23 @@
+.footer{
+    background: black;
+    padding: 30px 0;
+    color: white;
+    font-size: 14px;
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .socialMedia{
+        a{    float: left;margin-right: 10px;}
+    }
+}

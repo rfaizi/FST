@@ -1,0 +1,21 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198 43" width="198" height="43">
+	<title>l-g - Copy</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #fbfbfb } 
+		.s1 { fill: #f83e07 } 
+		.t2 { font-size: 26px;fill: #fbfbfb;font-weight: bold;font-style: italic;font-family: "Poppins-Regular", "Poppins" } 
+		.t3 { font-size: 26px;fill: #fbfbfb;font-weight: 400;font-family: "Poppins-Regular", "Poppins" } 
+	</style>
+	<path id="Shape 1" class="s0" d="m17 14.5c0 0 2.3 6.3 5.2 6.5l-13.9-0.3v13.4h-6.5v-32.6h40l-5.6 6.5h-28.2v6.5z"/>
+	<path id="Shape 2" class="s0" d="m18.2 9.5h7.5c0 0-1.2 3.9 1.8 4.7 3 0.8 6.2 0.3 6.2 0.3 0 0 6.9 2.4 3.7 8.3-0.5 0.9-1 1.6-2.4 2.6-1.2 0.7-0.6-4.2-3.1-4.4-2.6-0.1-11.8 1.5-13.4-7.7-0.8-5.2-0.3-3.8-0.3-3.8z"/>
+	<path id="Shape 3" class="s1" d="m18.5 33.8l5.6-6.3 8.1-0.3c0 0 7.9-0.6 7.7-9.3 0-1.2 2.6 2.7 2.1 7.3-0.4 3.2-2.7 8.6-8.3 8.6-18 0-15.2 0-15.2 0z"/>
+	<text id="Five Sense Technology" style="transform: matrix(1,0,0,1,145,108)" >
+		<tspan x="-144" y="0" class="t2">F</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">v</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">S</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">T</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">c</tspan><tspan  y="0" class="t2">h</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2">l</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2">g</tspan><tspan  y="0" class="t2">y
+</tspan>
+	</text>
+	<text id="Technology" style="transform: matrix(1,0,0,1,122,34)" >
+		<tspan x="-75.6" y="0" class="t3">T</tspan><tspan  y="0" class="t3">e</tspan><tspan  y="0" class="t3">c</tspan><tspan  y="0" class="t3">h</tspan><tspan  y="0" class="t3">n</tspan><tspan  y="0" class="t3">o</tspan><tspan  y="0" class="t3">l</tspan><tspan  y="0" class="t3">o</tspan><tspan  y="0" class="t3">g</tspan><tspan  y="0" class="t3">y
+</tspan>
+	</text>
+</svg>
