@@ -9,7 +9,9 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { useEffect, useState } from 'react';
 import IntentPopup from '../IntentPopup';
-
+import { IoLocationOutline } from "react-icons/io5";
+import { LiaPhoneVolumeSolid } from "react-icons/lia";
+import { HiOutlineMail } from "react-icons/hi";
 const Footer = () => {
   const [isIntentPopup, showIntentPopup] = useState(false);
   useEffect(() => {
@@ -37,18 +39,25 @@ const Footer = () => {
                       alt="Integrity and Transparency" class="marBtmHalfRem"
                     />
                   </Link>
-                  <p style={{ display: 'flex', alignItems: 'center' }}>
+                  <p className='flexContainer'>
                     <span>
-                      <Image
-                        src="/assets/location-pin.svg"
-                        width={25}
-                        height={25}
-                        alt=""
-                      /></span>
+                      <IoLocationOutline />
+                    </span>
                     <span>B1/H3, Mohan Co-Operative Industrial Area,<br /> Mathura Road, Block B, New Delhi - 110044</span>
                   </p>
-                  <p>1 (571) 111-1111</p>
-                  <p>info@fivesensetechnologies.com</p>
+                  <p className='flexContainer'>
+                    <span>
+                      <LiaPhoneVolumeSolid />
+                    </span>
+                    <span>1 (571) 111-1111</span>
+                  </p>
+                  <p className='flexContainer'>
+                    <span>
+                    <HiOutlineMail />
+                    </span>
+                    <span>info@fivesensetechnologies.com</span>
+                  </p>
+
                 </div>
                 <div class="col-4">
                   <h6>Explore</h6>

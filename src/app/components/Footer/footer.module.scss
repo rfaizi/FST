@@ -16,8 +16,13 @@
     a{
         text-decoration: none;
         color: white;
+        margin-bottom: 7px;
+        display: inline-block;
     }
     .socialMedia{
         a{    float: left;margin-right: 10px;}
+        svg{
+            font-size: 18px;
+        }
     }
 }

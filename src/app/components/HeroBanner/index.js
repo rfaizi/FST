@@ -8,8 +8,14 @@ import { MdImportantDevices } from "react-icons/md";
 import { HiOutlineSpeakerphone } from "react-icons/hi";
 import { BiBookContent } from "react-icons/bi";
 import useIsMobile from '@/hooks/useIsMobile';
-
+import { useRouter } from 'next/router';
 const HeroBanner = () => {
+  const router = useRouter();
+  const heroBannerImages = {
+    '/' : '/assets/fst-home-banner.jpg',
+    '/services/web-design' : '/assets/fst-home-banner-1.webp',
+  }
+  const heroBannerImage = heroBannerImages[router.pathname] || '/assets/fst-home-banner.jpg';
   const [punchlineText, setPunchlineText] = useState("Transforming Dreams into Digital Reality");
   // Define texts for each cylinder
   const cylinderTexts = [
@@ -27,7 +33,9 @@ const HeroBanner = () => {
     }
   })
   return (
-    <section className={classNames(styles.herobanner)}>
+    <section className={classNames(styles.herobanner)} style={{
+      backgroundImage: `url(${heroBannerImage})`,
+    }}>
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-xs-12 offset-md-4 pt-4 position-relative">

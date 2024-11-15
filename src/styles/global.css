@@ -70,7 +70,15 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
-
+.flexContainer{
+  display: flex;
+}
+.flexContainer span{
+  margin-right: 5px;
+}
+.flexContainer span svg{
+  font-size: 14px;
+}
 .marBtmHalfRem {
   margin-bottom: 0.5rem;
 }
