@@ -10,13 +10,12 @@ import Image from 'next/image'
 export default function WebDesign() {
     return (
         <main>
-            <Header />
-            <HeroBanner />
+            
             <IntroSection />
             <ServiceSection />
             {/* <Portfolio /> */}
             <EnquiryForm />
-            <Footer />
+
 
         </main>
     )
