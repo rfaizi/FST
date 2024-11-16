@@ -9,8 +9,10 @@ import { HiOutlineSpeakerphone } from "react-icons/hi";
 import { BiBookContent } from "react-icons/bi";
 import useIsMobile from '@/hooks/useIsMobile';
 import { useRouter } from 'next/router';
-const HeroBanner = () => {
+import { herobannerContent } from '@/app/helper/herobanner';
+const HeroBanner = () => {  
   const router = useRouter();
+  const path = router.pathname;
   const heroBannerImages = {
     '/' : '/assets/fst-home-banner.jpg',
     '/services/web-design' : '/assets/services/web-design/web-design-concepts.jpg',
@@ -32,16 +34,17 @@ const HeroBanner = () => {
       setIsBannerBtnShow(false);
     }
   })
+  const herobannerData = herobannerContent(path);
   return (
-    <section className={classNames(styles.herobanner)} style={{
-      backgroundImage: `url(${heroBannerImage})`,
-    }}>
+    <section className={classNames(styles.herobanner, {[styles.serviceHeroBanner]: path.startsWith("/services"),})}
+      style={{backgroundImage: `url(${heroBannerImage})`,}}
+    >    
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-xs-12 offset-md-4 pt-4 position-relative">
             <div className={classNames(styles.punchline)}>
               <strong>
-                <span>Your Digital Visionaries:</span><br />
+                <span>{herobannerData.content.mainHead}</span><br />
                 {punchlineText}
               </strong>
               <br />
@@ -50,7 +53,8 @@ const HeroBanner = () => {
               )
               }
             </div>
-            <div className={classNames(styles.fiveSenses)}>
+            {path ==="/" && (
+              <div className={classNames(styles.fiveSenses)}>
               <div
                 className={classNames(styles.cylinder, styles.sense_one)}
                 onMouseEnter={() => setPunchlineText("Transforming Dreams into Digital Reality")}
@@ -88,6 +92,8 @@ const HeroBanner = () => {
               </div>
               
             </div>
+            )}
+            
           </div>
         </div>
       </div>

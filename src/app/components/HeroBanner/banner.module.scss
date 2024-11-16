@@ -14,7 +14,10 @@
   width: 100%;
   height: 100%;
 }
-
+.serviceHeroBanner{
+  position: relative;
+  height: 350px;
+}
 .punchline {
   position: absolute;
   left: -48.333%;
@@ -39,6 +42,10 @@
     left: 0;
     bottom: 0%;
   }
+}
+.serviceHeroBanner .punchline {
+width: 100%;
+height: 45vh;
 }
 
 .fiveSenses {
