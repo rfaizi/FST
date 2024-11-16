@@ -13,7 +13,7 @@ const HeroBanner = () => {
   const router = useRouter();
   const heroBannerImages = {
     '/' : '/assets/fst-home-banner.jpg',
-    '/services/web-design' : '/assets/fst-home-banner-1.webp',
+    '/services/web-design' : '/assets/services/web-design/web-design-concepts.jpg',
   }
   const heroBannerImage = heroBannerImages[router.pathname] || '/assets/fst-home-banner.jpg';
   const [punchlineText, setPunchlineText] = useState("Transforming Dreams into Digital Reality");
