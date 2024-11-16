@@ -18,7 +18,7 @@ export const herobannerAssets = [
     pageUrl: '/services/web-design',
     imageUrl: '/assets/services/web-design/web-design-concepts.jpg',
     content: {
-      mainHead: 'Your Digital Visionaries:',
+      mainHead: 'Your Digital Visionaries rfrfgr:',
       subHead: 'Empowering Brands with Seamless User Experiences'
     },
   },
