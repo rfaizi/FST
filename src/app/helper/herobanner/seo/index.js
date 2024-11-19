@@ -4,7 +4,6 @@ export const seoData = [
         metaKeywords: 'keyword',
         metaTitle: 'title',
         metaDescription: 'description',
-        ogImage: 'image path',
-
+        ogImage: '/assets/fst-home-banner.jpg',
     }
 ]
