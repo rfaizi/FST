@@ -21,10 +21,10 @@ export default function MobileAppDevelopment() {
             <div className='container'>
             <div style={{ display: 'flex', justifyContent: 'space-between', margin: '30px 0' }}>
                     <div style={{ padding: '30px 30px 0 0' }}>
-                        <h1>More Than Just App</h1>
-                        <p style={{ fontSize: '22px', lineHeight: '30px', paddingTop: '17px', paddingRight: '5%' }}>We offer professional web design services at affordable rates to help your business attract more visitors!</p>
-                        <p>We start from structuring information architecture and mapping out functionalities. We start from structuring information architecture and mapping out functionalities. We start from structuring information architecture and mapping out functionalities.</p>
-                        <p>Our professional app developers build custom mobile apps to assist in the growth of your business. Our professional app developers build custom mobile apps to assist in the growth of your business. Our professional app developers build custom mobile apps to assist in the growth of your business.</p>
+                        <h1>We craft custom app development solutions that engage & delight</h1>
+                        <p style={{ fontSize: '22px', lineHeight: '30px', paddingTop: '17px', paddingRight: '5%' }}>A Blend of High-Standard Mobile Programming and Creativity</p>
+                        <p>As a mobile app development company, Lounge Lizard’s expert Brandtenders develop mobile apps for iOS and Android devices that bring solutions to all types of customer experiences. From smart home applications to education and learning apps to gaming and entertainment apps, our team can take your vision and create a mind-blowing mobile app.</p>
+                        
                     </div>
                     <div>
                         <img src='/assets/services/web-design/web-design-intro.jpg' alt='Web Design Services' width={500} height={408} style={{ borderRadius: '20px' }} />
@@ -32,30 +32,30 @@ export default function MobileAppDevelopment() {
                 </div>
                 <section className={classNames(styles.services)}>
                     <div className='container'>
-                    <h2>Software Development Service</h2>
-                    <p>At FiveSenseTechnology, we understand the importance of robust and scalable software in today's fast-paced business environment. Our software development services are tailored to meet the unique needs of your business, providing solutions that drive efficiency and growth.</p>
+                    <h2>Mobile App Development Services</h2>
+                    <p>In mobile development since 2005, ScienceSoft creates native, cross-platform and progressive web applications with stable performance, human-centered design and a unique selling proposition to stand out in a fierce market.</p>
                     <div className='customGrid'>
                         <div className={classNames(styles.items)}>
                             <MdDesignServices />
                             <div>
-                                <h3>Nearshore Development</h3>
-                                <p>Our nearshore software development services offer you the perfect blend of high-quality software solutions and the convenience of working in similar time zones. This approach ensures seamless communication, reducing any potential barriers that might arise due to geographical differences. </p>
+                                <h3>Product design</h3>
+                                <p>We analyze the market and your brand identity to spot and manifest your competitive advantage.</p>
                             </div>
                         </div>
 
                         <div className={classNames(styles.items)}>
                         <FaCode />
                             <div>
-                                <h3>Offshore Development</h3>
-                                <p>Our offshore teams consist of highly skilled people dedicated to delivering top-notch software solutions. We understand the importance of quality, and our rigorous development process ensures that every project meets the highest standards.</p>
+                                <h3>Mobile app consulting</h3>
+                                <p>We assist with app concept finalization, advise on platform/device compatibility, plan project activities, and optimize development costs.</p>
                             </div>
                         </div>
 
                         <div className={classNames(styles.items)}>
                         <PiDesktopTowerLight />
                             <div>
-                                <h3>Web App Development</h3>
-                                <p>Our web application development services are crafted to help your business succeed in today's digital industry. We specialize in crafting web applications that are not only visually impressive but also quite functional, ensuring your customers are engaged and satisfied. </p>
+                                <h3>Mobile app design</h3>
+                                <p>Our designers create sleek and intuitive UX and visually appealing UI to ensure conversion, engagement, and easy adoption.</p>
                             </div>
                         </div>
 
@@ -63,23 +63,47 @@ export default function MobileAppDevelopment() {
                         <BiSolidBookContent />
                             <div>
                                 <h3>Mobile App Development</h3>
-                                <p>Our mobile app development services are designed to bring your vision to life on mobile platforms. We develop intuitive and user-friendly mobile apps tailored to your specific needs. Whether you want to reach customers on Android, iOS, or both, our team creates apps that look great and function seamlessly.</p>
+                                <p>Our developers create and deploy fast, stable & high-performing mobile apps: 350+ projects we successful implemented is solid proof.</p>
                             </div>
                         </div>
 
                         <div className={classNames(styles.items)}>
                         <BsGraphUpArrow />
                             <div>
-                                <h3>Enterprise Software Solutions</h3>
-                                <p>Our websites generate more leads for your business, which means more money in your pocket.</p>
+                                <h3>Web development</h3>
+                                <p>ScienceSoft is ready to complement your mobile app with a web app, web portal, online store or SaaS.</p>
                             </div>
                         </div>
 
                         <div className={classNames(styles.items)}>
                         <GiDeadEye />
                             <div>
-                                <h3>Database Design and Management</h3>
-                                <p>Our experts have proven expertise in developing and delivering effective digital marketing strategies.</p>
+                                <h3>Mobile app integration</h3>
+                                <p>Well-versed in a wide range of APIs, we guarantee seamless integration with back ends and any third-party software.</p>
+                            </div>
+                        </div>
+
+                        <div className={classNames(styles.items)}>
+                        <GiDeadEye />
+                            <div>
+                                <h3>Testing and QA</h3>
+                                <p>Our ISTQB-certified test engineers perform functional, performance, security, UX, and accessibility testing.</p>
+                            </div>
+                        </div>
+
+                        <div className={classNames(styles.items)}>
+                        <GiDeadEye />
+                            <div>
+                                <h3>Maintenance and support</h3>
+                                <p>ScienceSoft offers post-launch L1–L3 support, compliance, security, and performance management & app evolution.</p>
+                            </div>
+                        </div>
+
+                        <div className={classNames(styles.items)}>
+                        <GiDeadEye />
+                            <div>
+                                <h3>Mobile app modernization</h3>
+                                <p>Our developers redesign the architecture, refactor code, and offer new look and feel to legacy mobile apps.</p>
                             </div>
                         </div>
 
