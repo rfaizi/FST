@@ -1,0 +1,11 @@
+.services {
+    .items {
+        display: flex;
+        align-items: flex-start;
+        svg {
+            width: 100px;
+            height: 100px;
+            margin-right: 25px;
+        }
+    }
+}

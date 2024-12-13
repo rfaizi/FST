@@ -1,0 +1,25 @@
+.usp {
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(24,26,37,.10196078431372549);
+    margin-bottom: 30px;
+    border-top: #c95332 2px solid;
+
+    .uspContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li {
+            list-style: none;            
+            padding: 20px 50px;
+            font-size: 18px;  
+            text-align: center;  
+            svg{
+                font-size: 30px;
+            }   
+            &:not(:last-child){
+                border-right: 1px solid #e5e5e5;
+            }   
+        }
+        
+    }
+}

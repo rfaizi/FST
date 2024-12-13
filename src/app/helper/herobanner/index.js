@@ -18,8 +18,59 @@ export const herobannerAssets = [
     pageUrl: '/services/web-design',
     imageUrl: '/assets/services/web-design/web-design-concepts.jpg',
     content: {
-      mainHead: 'Your Digital Visionaries rfrfgr:',
+      mainHead: 'Your Digital Visionaries:',
       subHead: 'Empowering Brands with Seamless User Experiences'
+    },
+  },
+  {
+    pageUrl: '/services/software-development',
+    imageUrl: '/assets/services/software-development-concept.jpg',
+    content: {
+      mainHead: 'Your Digital Visionaries:',
+      subHead: 'Innovative Software Solutions for a Dynamic World'
+    },
+  },
+  {
+    pageUrl: '/services/mobile-app-development',
+    imageUrl: '/assets/services/mobile-app-development-concept.jpg',
+    content: {
+      mainHead: 'Your Digital Visionaries:',
+      subHead: 'Crafting Exceptional Apps for a Digital Tomorrow - Seamless Solutions'
+    },
+  },
+
+  {
+    pageUrl: '/services/search-engine-marketing',
+    imageUrl: '/assets/services/seo-concept.jpg',
+    content: {
+      mainHead: 'Your Digital Visionaries:',
+      subHead: 'Boost Your Online Presence and Drive Results'
+    },
+  },
+
+  {
+    pageUrl: '/services/lead-generation',
+    imageUrl: '/assets/services/lead-generation-ppc-concept.jpg',
+    content: {
+      mainHead: 'Your Digital Visionaries:',
+      subHead: 'Boost Your Online Presence and Drive Results'
+    },
+  },
+
+  {
+    pageUrl: '/services/social-media-marketing',
+    imageUrl: '/assets/services/social-media-concept.jpg',
+    content: {
+      mainHead: 'Your Digital Visionaries:',
+      subHead: 'Transform Clicks into Connections with Five Sense Technology'
+    },
+  },
+  {
+    pageUrl: '/services/content-writing',
+    imageUrl: '/assets/services/content-writing-concept.jpg',
+    content: {
+      mainHead: 'Your Digital Visionaries:',
+      subHead: 'Crafting Words That Inspire, Engage, and Deliver Results!'
     },
   },
 

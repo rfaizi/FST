@@ -1,0 +1,51 @@
+.counter {
+    background: url(/assets/counter_bg.jpg) no-repeat 0 -100px;
+    background-size: 100%;
+    color: #fff;
+    display: block;
+    padding: 25px 0px;
+    margin-bottom: 30px;
+    position: relative;
+    &::before{
+      content: "";
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  .counter__content {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  .counter__icon {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .counter__info {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .counter__digit {
+    font-weight: 700;
+  }
+  .counter__text {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  @media (max-width: 991px) {
+    .counter__info {
+      font-size: 2rem;
+    }
+    .counter__text {
+      font-size: 1rem;
+    }
+  }

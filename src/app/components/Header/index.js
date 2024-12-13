@@ -47,20 +47,20 @@ const Header = () => {
                     <ul className={styles.dropdownMenu}>
                       <li><Link href="/services/web-design"> Web Design</Link></li>
                       <li><Link href="/services/software-development">Software Development</Link></li>
-                      <li><Link href="/services/app-development">App Development</Link></li>
+                      <li><Link href="/services/mobile-app-development">Mobile App Development</Link></li>
                       <li><Link href="/services/search-engine-marketing">Search Engine Marketing (SEO)</Link></li>
-                      <li><Link href="/services/pay-per-click">Pay Per Click</Link></li>
+                      <li><Link href="/services/lead-generation">Lead Generation (PPC)</Link></li>
                       <li><Link href="/services/social-media-marketing">Social Media Marketing</Link></li>
                       <li><Link href="/services/content-writing">Content Writing</Link></li>
-                      <li><Link href="/services/lead-generation">Lead Generation</Link></li>
+
                     </ul>
                   )}
                 </li>
                 <li>
-                  <Link href="/">Our Work</Link>
+                  <Link href="/portfolio">Our Work</Link>
                 </li>
                 <li>
-                  <Link href="/">Who We Are</Link>
+                  <Link href="/about-us">Who We Are</Link>
                 </li>
                 <li>
                   <Link href="/contact-us">Connect With Us</Link>
@@ -81,9 +81,15 @@ const Header = () => {
         </div>
         <ul>
           <li><Link href="/">Services</Link></li>
-          <li><Link href="/">Our Work</Link></li>
-          <li><Link href="/">Who We Are</Link></li>
-          <li><Link href="/contact-us">Connect With Us</Link></li>
+          <li>
+            <Link href="/portfolio">Our Work</Link>
+          </li>
+          <li>
+            <Link href="/about-us">Who We Are</Link>
+          </li>
+          <li>
+            <Link href="/contact-us">Connect With Us</Link>
+          </li>
         </ul>
       </div>
     </header>

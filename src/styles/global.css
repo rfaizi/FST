@@ -100,7 +100,9 @@ button:hover {
   color: #fff !important;
   
 }
-
+.customGrid{
+  display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 30px; 
+}
 .heading {
   color: #333;
   font-size: 36px;
@@ -238,7 +240,6 @@ button:hover {
 
 .rightrail {
   border-radius: 4px;
-  padding: 0;
   background: #fff;
   color: #333;
   border: #ff4500 1px solid;
@@ -297,6 +298,303 @@ button:hover {
 .text-right {
   text-align: right;
 }
+.heading {
+  color: #333;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 30px !important;
+  position: relative;
+  text-align: center;
+}
+  .underlineHeading {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    color: #ff4500;
+    font-size: 16px;
+  }
+
+  .underlineHeading:before {
+    content: "";
+    background: #dedede;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+  }
+
+  .underlineHeading:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    border-radius: 50px;
+    margin: 0 auto;
+    right: 0;
+  }
+
+  .bigTxt {
+    font-size: 30px;
+    display: block;
+    text-transform: capitalize;    
+  }
+.Portfolio {
+  background: #f5f5ed;
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+    margin: 15px 0;
+}
+.Portfolio .hdTxt {
+  color: #ff4600;
+  font-size: 36px;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.Portfolio p {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+#tranding .trandingSlider {
+  padding: 0 0 3rem;
+  position: relative;
+}
+.swiper-3d {
+  perspective: 1895px !important;
+}
+.swiper-3d .swiper-cube-shadow,
+.swiper-3d .swiper-slide,
+.swiper-3d .swiper-slide-shadow,
+.swiper-3d .swiper-slide-shadow-bottom,
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right,
+.swiper-3d .swiper-slide-shadow-top,
+.swiper-3d .swiper-wrapper {
+  transform-style: preserve-3d;
+}
+.trandingSlide {
+  width: 297px !important;
+  height: 392px !important;
+  position: relative;
+}
+.trandingSlide .trandingSlideImg img {
+  width: 297px;
+  height: 392px;
+  border-radius: 16px;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.swiper-slide-active.trandingSlide .trandingSlideImg img {
+  opacity: 1;
+}
+.trandingSlideContent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.trandingSlideContent .trandingSlideContentBottom {
+  position: absolute;
+  bottom: -55px;
+  left: 0;
+  color: #000;
+  right: 0;
+  margin: 0 auto;
+}
+.trandingSlideContent .trandingSlideContentBottom .foodName {
+  display: none;
+}
+.trandingSlider .swiper-button-prev,
+.trandingSlider .swiper-button-next {
+  background: #f05d32;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.swiper-slide-active
+  .trandingSlideContent
+  .trandingSlideContentBottom
+  .foodName {
+  display: inline-block;
+  font-size: 22px;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after,
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  font-size: 24px !important;
+  color: #fff;
+}
+.swiper-pagination {
+  display: none;
+}
+.hotelContactSec {
+  float: left;
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+}
+.hotelContactSec_container {
+  padding: 0 15px;
+  position: relative;
+}
+.hotelContactSec_container h5 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.hotelContactSec_container p {
+  font-size: 16px;
+  padding-top: 15px;
+  font-weight: 600;
+}
+.hotelContactSec_call {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 30px auto 30px;
+  max-width: fit-content;
+}
+.hotelContactSec_call a {
+  font-size: 34px;
+  color: #f05d32;
+  text-decoration: none;
+  font-weight: 600;
+}
+.hotelContactSec_call a:hover {
+  text-decoration: none;
+  color: #f05d32;
+}
+.hotelContactSec_call a button:hover {
+  background: #dc3504;
+}
+.hotelContactSec button {
+  background: #f05d32;
+  border: 0;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 6px;
+  margin-right: 15px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.hotelContent {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.hotelContent ul {
+  padding-left: 15px;
+  margin-bottom: 30px;
+} /* @media (max-width:990px) { .tranding-slider-control .swiper-button-next { left: 70% !important; transform: translateX(-70%) !important; } .tranding-slider-control .swiper-button-prev { left: 30% !important; transform: translateX(-30%) !important; } } / / @media (max-width:500px) { #tranding .tranding-slider { height: 45rem; } .tranding-slide { width: 28rem !important; height: 36rem !important; } .tranding-slide .tranding-slide-img img { width: 28rem !important; height: 36rem !important; } } / / @media (max-width:450px) { .tranding-slider-control .swiper-button-next { left: 80% !important; transform: translateX(-80%) !important; } .tranding-slider-control .swiper-button-prev { left: 20% !important; transform: translateX(-20%) !important; } } */
+@media (min-width: 992px) {
+  .hotelContactSec button {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .Portfolio p {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  #tranding .trandingSlider {
+    padding: 0 0 3rem;
+    position: relative;
+  }
+  .swiper-3d {
+    perspective: 1895px !important;
+  }
+  .swiper-3d .swiper-cube-shadow,
+  .swiper-3d .swiper-slide,
+  .swiper-3d .swiper-slide-shadow,
+  .swiper-3d .swiper-slide-shadow-bottom,
+  .swiper-3d .swiper-slide-shadow-left,
+  .swiper-3d .swiper-slide-shadow-right,
+  .swiper-3d .swiper-slide-shadow-top,
+  .swiper-3d .swiper-wrapper {
+    transform-style: preserve-3d;
+  }
+  .trandingSlide {
+    width: 297px !important;
+    height: 392px !important;
+    position: relative;
+  }
+  .trandingSlide .trandingSlideImg img {
+    width: 297px;
+    height: 392px;
+    border-radius: 16px;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  .swiper-slide-active.trandingSlide .trandingSlideImg img {
+    opacity: 1;
+  }
+  .trandingSlideContent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .trandingSlideContent .trandingSlideContentBottom {
+    position: absolute;
+    bottom: -55px;
+    left: 0;
+    color: #000;
+    right: 0;
+    margin: 0 auto;
+  }
+  .trandingSlideContent .trandingSlideContentBottom .foodName {
+    display: none;
+  }
+  .trandingSlider .swiper-button-prev,
+  .trandingSlider .swiper-button-next {
+    background: #f05d32;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+  .swiper-slide-active
+    .trandingSlideContent
+    .trandingSlideContentBottom
+    .foodName {
+    display: inline-block;
+    font-size: 22px;
+  }
+  .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after,
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    font-size: 24px !important;
+    color: #fff;
+  }
+  .swiper-pagination {
+    display: none;
+  }
+  .hotelContactSec {
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .hotelContactSec_container {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 30px 0 30px;
+  }
+  .hotelContactSec_container:before {
+    top: -50px;
+  }
+}
+
 @media (max-width: 768px) {
   .pt-4 {
     padding-top: 1rem !important;

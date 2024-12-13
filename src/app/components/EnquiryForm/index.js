@@ -179,7 +179,7 @@ const EnquiryForm = () => {
             <h4><span>{servicePricing[service].description}</span></h4>
           </div>
           <div className="row rightrail__items">
-            <div className="col-sm-9 col-pad-0">
+            <div className="col-sm-9">
               <strong>{page} PAGE{page > 1 ? 'S' : ''}</strong>
               <div><small>{pagePriceInfo}</small></div>
             </div>
@@ -188,7 +188,7 @@ const EnquiryForm = () => {
             </div>
           </div>
           <div className="row rightrail__items">
-          <div className="col-sm-9 col-pad-0">
+          <div className="col-sm-9">
           <strong>COMPATIBILITY</strong>
           <div><span>{compatibility.toUpperCase()}</span></div>
           </div>           
@@ -197,7 +197,7 @@ const EnquiryForm = () => {
             </div>
           </div>
           <div className="row rightrail__items">            
-            <div className="col-sm-9 col-pad-0">
+            <div className="col-sm-9">
             <strong>TURNAROUND</strong>
               <div><span>{turnaround === 'option1' ? 'STANDARD - 5 to 7 DAYS' : 'EXPRESS - 2 to 3 DAYS'}</span></div>
             </div>
